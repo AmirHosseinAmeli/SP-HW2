@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12) (preloaded format=xelatex 2022.3.4)  15 MAR 2022 01:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.12) (preloaded format=xelatex 2022.3.4)  15 MAR 2022 07:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,16 +645,42 @@ Overfull \hbox (26.16324pt too wide) in paragraph at lines 13--19
  []
 
 
-Overfull \hbox (332.71902pt too wide) detected at line 23
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{enumerate} on input line 6 ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (332.71902pt too wide) detected at line 25
 \OML/cmm/m/it/10 Rx\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) = \OM
 L/cmm/m/it/10 exp\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 01 \OMS/cm
-sy/m/n/10 ^^B j\OML/cmm/m/it/10 ^^\\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ) + 4[] []
- \OML/cmm/m/it/10 Rx\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) = \O
-ML/cmm/m/it/10 exp\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@j\OML/cmm/m/it/10 ^^\ \O
-MS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 4\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ) + 9[] \
-OML/cmm/m/it/10 Rx\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) = \OML
-/cmm/m/it/10 exp\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@j\OML/cmm/m/it/10 ^^\\OMS/
-cmsy/m/n/10 j \OT1/cmr/m/n/10 + 4) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 25
+sy/m/n/10 ^^B j\OML/cmm/m/it/10 ^^\\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ) + 4[] \O
+ML/cmm/m/it/10 Rx\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) = \OML/
+cmm/m/it/10 exp\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@j\OML/cmm/m/it/10 ^^\ \OMS/
+cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 4\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ) + 9[] \OML
+/cmm/m/it/10 Rx\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) = \OML/cm
+m/m/it/10 exp\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@j\OML/cmm/m/it/10 ^^\\OMS/cms
+y/m/n/10 j \OT1/cmr/m/n/10 + 4) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 25
  []
 
 
@@ -664,7 +690,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \end{enumerate}
+l.27 \end{enumerate}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -677,10 +703,10 @@ If that doesn't work, type  X <return>  to quit.
 
  
 Here is how much of TeX's memory you used:
- 25 strings out of 411044
- 422 string characters out of 2824578
+ 26 strings out of 411044
+ 430 string characters out of 2824578
  305265 words of memory out of 3000000
- 20776 multiletter control sequences out of 15000+600000
+ 20777 multiletter control sequences out of 15000+600000
  403438 words of font info for 28 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  17i,2n,12p,131b,114s stack positions out of 5000i,500n,10000p,200000b,80000s
