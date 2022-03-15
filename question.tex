@@ -10,21 +10,20 @@
 	
 	% header{<Assignment-Number>}{<Assignment-Title>}{<Deadline-Date>}{<Gathered-by>}{<Supervised-by>}
 	\header
-	{تمرین اول}{عنوان تمرین}{18 بهمن}{}{}
+	{تمرین اول}{فرایندهای تصادفی ایستا و ارگادیک}{18 بهمن}{}{}
 	\input{template/info}
 	
 	% partheader{<Part-Name>}{<Part-Total-Score>}
 	\partheader{سوالات نظری}{70}
 	\begin{enumerate}
 		% question{<Question-TexFile-Path>}{<Question-Score>}
+		\question{questions/_th1}
 		\question{questions/th1}
 		\question{questions/th2}
 		\question{questions/th3}
+		\question{questions/_th4}
+		\question{questions/_th5}
 	\end{enumerate}
-	\partheader{سوالات عملی}{30}
-	\begin{enumerate}
-		% question{<Question-TexFile-Path>}{<Question-Score>}
-		\question{questions/practical1}
-	\end{enumerate}
+
 	\vspace{0.5cm}	
 \end{document}
