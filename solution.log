@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.11.22)  16 MAR 2022 08:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.11.22)  17 MAR 2022 10:32
 entering extended mode
 **./solution.tex
 (solution.tex
@@ -1611,23 +1611,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--43
 [][]
  []
 
-) (solution/_th5.tex [4]) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+) (solution/_th5.tex [4]) (solution/th4.tex [5]) (solution/th5.tex
+Missing character: There is no ‌ in font cmr12!
+Missing character: There is no ‌ in font cmr12!
+ [6])
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
  (solution.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 Package rerunfilecheck Info: File `solution.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 25.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 41926 strings out of 414071
- 968957 string characters out of 2894590
+ 41936 strings out of 414071
+ 969091 string characters out of 2894590
  1448854 words of memory out of 3000000
- 58808 multiletter control sequences out of 15000+200000
+ 58812 multiletter control sequences out of 15000+200000
  538742 words of font info for 78 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,18n,100p,4830b,613s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on solution.pdf (5 pages).
+Output written on solution.pdf (7 pages).
